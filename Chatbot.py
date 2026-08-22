@@ -11,8 +11,10 @@ if present_hour>=5 and present_hour<12:
     print(f"Good Morning, {name}. How can I help you")
 elif present_hour>=12 and present_hour<17:
     print(f"Good Afternoon, {name}. How can I help you")
+elif present_hour>=17 and present_hour<21:
+    print(f"Good evening, {name}. How can I help you")
 else:
-    print(f"Good Night, {name}. How can I help you") 
+    print(f"Good night, {name}. How can I help you")
 
 # Creating dictionary for assistant responses
 
